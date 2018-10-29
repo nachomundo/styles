@@ -141,7 +141,7 @@
         </group>
       </else-if>
       <else-if type="paper-conference" match="any">
-        <group delimiter=". ">
+        <group delimiter=". " prefix=". ">
           <text variable="container-title"/>
           <text variable="publisher-place"/>
           <group>
